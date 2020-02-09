@@ -26,4 +26,4 @@
 | 1 | 0 | 1 | 0 |
 | 1 | 1 | 0 | 1 |
 
-![](Images/electronic.png)
+![electronic](https://user-images.githubusercontent.com/60675320/74112049-bf501f00-4b99-11ea-9f88-7b0df42728c6.PNG)
