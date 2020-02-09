@@ -26,4 +26,4 @@
 | 1 | 0 | 1 | 0 |
 | 1 | 1 | 0 | 1 |
 
-![and_gates](../../Images/electronic.PNG)
+![](Images/electronic.png)
