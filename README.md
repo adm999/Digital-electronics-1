@@ -34,7 +34,7 @@
 
 ![equartion](https://latex.codecogs.com/gif.latex?f_%7Band%7D%3D%5Coverline%7B%28%5Coverline%7Ba%5Ctimes%5Coverline%7Bb%7D%7D%29%5Ctimes%20%5Coverline%7B%28%5Coverline%7Bb%7D%5Ctimes%5Coverline%7Bc%7D%29%7D%20%7D)
 
-![equartion](https://latex.codecogs.com/gif.latex?f_%7Bor%7D%3D%5Coverline%7B%28%5Coverline%7Ba%5Ctimes%5Coverline%7Bb%7D%7D%29&plus;%20%5Coverline%7B%28%5Coverline%7Bb%7D%5Ctimes%5Coverline%7Bc%7D%29%7D%20%7D)
+![equartion](https://latex.codecogs.com/gif.latex?f_%7Bor%7D%3D%5Coverline%7B%28%5Coverline%7Ba%7D&plus;b%29%7D&plus;%20%5Coverline%7B%28b&plus;c%29%7D)
 
 
 | **A** | **B** | **C** | **F** | **Fand** | **For** |
