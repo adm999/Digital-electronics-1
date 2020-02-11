@@ -33,4 +33,7 @@
 | 1 | 0 | B |
 
 
+https://latex.codecogs.com/gif.latex?y_%7BA%3CB%7D%5E%7BPoS%2Cmin%7D%3D%5Coverline%7BA%7D%5Ctimes%20B
+
+
 
