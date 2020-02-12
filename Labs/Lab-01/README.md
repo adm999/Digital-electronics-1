@@ -49,4 +49,4 @@
 | 1 | 1 | 1 | 0 | 0 | 0 |
 
 
-
+![laws](https://user-images.githubusercontent.com/60675320/74291183-52bd5780-4d34-11ea-861c-bd2417344d95.PNG)
