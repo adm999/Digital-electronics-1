@@ -24,4 +24,4 @@
 | 1 | 1 | 0 | 1 | 0 |
 | 1 | 1 | 1 | 1 | 1 |
 
-
+![Full adder](https://user-images.githubusercontent.com/58397657/75178639-c00bb800-5738-11ea-9e97-5e1998600900.jpg)
