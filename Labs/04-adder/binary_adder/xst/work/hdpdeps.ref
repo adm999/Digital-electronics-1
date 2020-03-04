@@ -1,0 +1,29 @@
+V3 15
+FL /home/lab661/Documents/xpolac36/Digital-electronics-1/Labs/04-adder/full_adder.vhd 2020/02/26.09:45:10 P.20131013
+EN work/full_adder 1582710299 \
+      FL /home/lab661/Documents/xpolac36/Digital-electronics-1/Labs/04-adder/full_adder.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/full_adder/Behavioral 1582710300 \
+      FL /home/lab661/Documents/xpolac36/Digital-electronics-1/Labs/04-adder/full_adder.vhd \
+      EN work/full_adder 1582710299 CP work/half_adder
+FL /home/lab661/Documents/xpolac36/Digital-electronics-1/Labs/04-adder/half_adder.vhd 2020/02/26.09:16:29 P.20131013
+EN work/half_adder 1582710297 \
+      FL /home/lab661/Documents/xpolac36/Digital-electronics-1/Labs/04-adder/half_adder.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/half_adder/Behavioral 1582710298 \
+      FL /home/lab661/Documents/xpolac36/Digital-electronics-1/Labs/04-adder/half_adder.vhd \
+      EN work/half_adder 1582710297
+FL /home/lab661/Documents/xpolac36/Digital-electronics-1/Labs/04-adder/hex_to_7seg.vhd 2020/02/19.09:58:29 P.20131013
+EN work/hex_to_7seg 1582710301 \
+      FL /home/lab661/Documents/xpolac36/Digital-electronics-1/Labs/04-adder/hex_to_7seg.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/hex_to_7seg/Behavioral 1582710302 \
+      FL /home/lab661/Documents/xpolac36/Digital-electronics-1/Labs/04-adder/hex_to_7seg.vhd \
+      EN work/hex_to_7seg 1582710301
+FL /home/lab661/Documents/xpolac36/Digital-electronics-1/Labs/04-adder/top.vhd 2020/02/26.10:44:52 P.20131013
+EN work/top 1582710303 \
+      FL /home/lab661/Documents/xpolac36/Digital-electronics-1/Labs/04-adder/top.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/top/Behavioral 1582710304 \
+      FL /home/lab661/Documents/xpolac36/Digital-electronics-1/Labs/04-adder/top.vhd \
+      EN work/top 1582710303 CP work/full_adder CP work/hex_to_7seg

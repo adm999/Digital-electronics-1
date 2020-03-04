@@ -1,0 +1,49 @@
+Pin Freeze File:  version P.20131013
+
+2C256144 XC2C256-6-TQ144
+BTN0 S:PIN143
+clk_i S:PIN38
+disp_dig_o<0> S:PIN126
+disp_dig_o<1> S:PIN128
+disp_dig_o<2> S:PIN129
+disp_dig_o<3> S:PIN130
+disp_seg_o<0> S:PIN61
+disp_seg_o<1> S:PIN54
+disp_seg_o<2> S:PIN57
+disp_seg_o<3> S:PIN58
+disp_seg_o<4> S:PIN60
+disp_seg_o<5> S:PIN53
+disp_seg_o<6> S:PIN56
+
+
+;The remaining section of the .gyd file is for documentation purposes only.
+;It shows where your internal equations were placed in the last successful fit.
+
+PARTITION FB1_1 CLK_EN_0/s_cnt<8> CLK_EN_0/s_cnt<11> N_PZ_106 CLK_EN_0/s_cnt<3>
+		 CLK_EN_0/s_cnt<7> N_PZ_112 CLK_EN_0/s_cnt<6> CLK_EN_0/s_cnt<1>
+		 CLK_EN_0/s_cnt<0> CLK_EN_0/s_cnt<15> CLK_EN_0/s_cnt<14> s_en
+		 CLK_EN_0/s_cnt<9> CLK_EN_0/s_cnt<10> CLK_EN_0/s_cnt<13> CLK_EN_0/s_cnt<12>
+		
+PARTITION FB2_2 CLK_EN_0/s_cnt<5>
+PARTITION FB2_6 CLK_EN_0/s_cnt<4> N_PZ_140 CLK_EN_0/s_cnt<2> s_hex<0>
+		 s_hex<1> s_hex<2>
+PARTITION FB2_13 N_PZ_159 N_PZ_126 N_PZ_137 s_hex<3>
+		
+
+
+
+
+
+
+
+
+PARTITION FB11_13 disp_dig_o<0> disp_dig_o<1> disp_dig_o<2> disp_dig_o<3>
+		
+
+
+PARTITION FB14_16 disp_seg_o<0>
+
+PARTITION FB16_5 disp_seg_o<4>
+PARTITION FB16_11 disp_seg_o<3> disp_seg_o<2> disp_seg_o<6>
+PARTITION FB16_15 disp_seg_o<1> disp_seg_o<5>
+

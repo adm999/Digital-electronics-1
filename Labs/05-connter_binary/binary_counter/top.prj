@@ -1,0 +1,4 @@
+vhdl work "clock_enable.vhd"
+vhdl work "binary_cnt.vhd"
+vhdl work "../../04-adder/hex_to_7seg.vhd"
+vhdl work "top.vhd"

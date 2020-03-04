@@ -1,0 +1,133 @@
+
+----------------------------------------
+|  P a r t i t i o n    S u c c e e d  |
+----------------------------------------
+0 Group(s)
+
+----------------- B l o c k 0 ------------------
+PLApt(20/56), Fanin(10/38), Clk(0/3), Bct(0/4), Pin(3/6), Mcell(8/16)
+PLApts[20/53] 3 4 7 8 12 17 19 20 24 25 21 26 30 31 32 35 22 23 () () () () () () () () () () () () () () () 
+              () 27 () () () () () () () () () () () () () () () () () 5
+Fanins[10] s_carry2.n s_result<1>.n SW0_CPLD.p SW10_CPLD.p SW11_CPLD.p SW1_CPLD.p SW2_CPLD.p SW3_CPLD.p 
+           SW8_CPLD.p SW9_CPLD.p
+clk[0] 
+CTC: 
+CTR: 
+CTS: 
+CTE: 
+vref: [0]
+Signal[ 8] [disp_dig_o<1>(147),disp_dig_o<1>(143)] [disp_dig_o<2>(148),disp_dig_o<2>(142)]  
+           [disp_dig_o<3>(150),disp_dig_o<3>(140)] [N_PZ_32(160)] [s_result<1>(159)] [s_carry2(155)]  
+           [s_result<2>(154)] [N_PZ_19(153)] 
+Signal[ 8] [ 0:  ][ 1:  ][ 2: disp_dig_o<1>(147) disp_dig_o<1>(143)  ][ 3: disp_dig_o<2>(148)  
+           disp_dig_o<2>(142)  ][ 4:  ][ 5: disp_dig_o<3>(150) disp_dig_o<3>(140)  ][ 6:  ][ 7:  ][ 8:  
+           N_PZ_19(153)  ][ 9: s_result<2>(154)  ][ 10: s_carry2(155)  ][ 11: (139)  ][ 12: (138)  ][ 13:  
+           (137)  ][ 14: s_result<1>(159)  ][ 15: N_PZ_32(160)  ]
+----------------- B l o c k 1 ------------------
+PLApt(0/56), Fanin(0/38), Clk(0/3), Bct(0/4), Pin(4/8), Mcell(0/16)
+PLApts[0/0]
+Fanins[ 0]
+clk[0] 
+CTC: 
+CTR: 
+CTS: 
+CTE: 
+vref: [0]
+Signal[ 4] [SW10_CPLD(5)] [SW11_CPLD(4)] [SW8_CPLD(3)] [SW9_CPLD(2)] 
+Signal[ 4] [ 0: SW9_CPLD(2)  ][ 1:  ][ 2: SW8_CPLD(3)  ][ 3: SW11_CPLD(4)  ][ 4: SW10_CPLD(5)  ][ 5:  ][ 6:  
+            ][ 7:  ][ 8:  ][ 9:  ][ 10:  ][ 11: (6)  ][ 12: (7)  ][ 13: (9)  ][ 14: (10)  ][ 15:  ]
+----------------- B l o c k 2 ------------------
+PLApt(0/56), Fanin(0/38), Clk(0/3), Bct(0/4), Pin(4/6), Mcell(0/16)
+PLApts[0/0]
+Fanins[ 0]
+clk[0] 
+CTC: 
+CTR: 
+CTS: 
+CTE: 
+vref: [0]
+Signal[ 4] [SW0_CPLD(134)] [SW1_CPLD(133)] [SW2_CPLD(136)] [SW3_CPLD(135)] 
+Signal[ 4] [ 0: SW2_CPLD(136)  ][ 1: SW3_CPLD(135)  ][ 2: SW0_CPLD(134)  ][ 3:  ][ 4: SW1_CPLD(133)  ][ 5:  ] 
+           [ 6:  ][ 7:  ][ 8:  ][ 9:  ][ 10:  ][ 11:  ][ 12:  ][ 13: (132)  ][ 14:  ][ 15: (131)  ]
+----------------- B l o c k 3 ------------------
+----------------- B l o c k 4 ------------------
+----------------- B l o c k 5 ------------------
+----------------- B l o c k 6 ------------------
+----------------- B l o c k 7 ------------------
+----------------- B l o c k 8 ------------------
+PLApt(3/56), Fanin(3/38), Clk(0/3), Bct(0/4), Pin(3/8), Mcell(3/16)
+PLApts[3/26] () () () () () () () () () () 5 () () 1 () () () () () () () () () () () 16
+Fanins[ 3] SW10_CPLD.p SW8_CPLD.p SW9_CPLD.p
+clk[0] 
+CTC: 
+CTR: 
+CTS: 
+CTE: 
+vref: [0]
+Signal[ 3] [LD10_CPLD(278),LD10_CPLD(115)] [LD8_CPLD(274),LD8_CPLD(113)] [LD9_CPLD(273),LD9_CPLD(112)] 
+Signal[ 3] [ 0: LD9_CPLD(273) LD9_CPLD(112)  ][ 1: LD8_CPLD(274) LD8_CPLD(113)  ][ 2:  ][ 3: (114)  ][ 4:  ] 
+           [ 5: LD10_CPLD(278) LD10_CPLD(115)  ][ 6:  ][ 7:  ][ 8:  ][ 9:  ][ 10:  ][ 11: (116)  ][ 12:  
+           (117)  ][ 13: (118)  ][ 14: (119)  ][ 15:  ]
+----------------- B l o c k 9 ------------------
+----------------- B l o c k 10 ------------------
+PLApt(0/56), Fanin(0/38), Clk(0/3), Bct(0/4), Pin(1/8), Mcell(1/16)
+PLApts[0/0]
+Fanins[ 0]
+clk[0] 
+CTC: 
+CTR: 
+CTS: 
+CTE: 
+vref: [0]
+Signal[ 1] [disp_dig_o<0>(317),disp_dig_o<0>(126)] 
+Signal[ 1] [ 0:  ][ 1:  ][ 2:  ][ 3:  ][ 4: (120)  ][ 5: (121)  ][ 6:  ][ 7:  ][ 8:  ][ 9:  ][ 10: (124)  ] 
+           [ 11: (125)  ][ 12: disp_dig_o<0>(317) disp_dig_o<0>(126)  ][ 13: (128)  ][ 14: (129)  ][ 15:  
+           (130)  ]
+----------------- B l o c k 11 ------------------
+PLApt(3/56), Fanin(3/38), Clk(0/3), Bct(0/4), Pin(3/6), Mcell(3/16)
+PLApts[3/47] () () () () () () () () () () () () () 18 () () () () () () () () () () () () () () () () () () 
+             () () () () () () () () () () () 2 () () 6
+Fanins[ 3] SW0_CPLD.p SW1_CPLD.p SW2_CPLD.p
+clk[0] 
+CTC: 
+CTR: 
+CTS: 
+CTE: 
+vref: [0]
+Signal[ 3] [LD0_CPLD(332),LD0_CPLD(97)] [LD1_CPLD(333),LD1_CPLD(96)] [LD2_CPLD(322),LD2_CPLD(100)] 
+Signal[ 3] [ 0:  ][ 1: LD2_CPLD(322) LD2_CPLD(100)  ][ 2:  ][ 3:  ][ 4:  ][ 5:  ][ 6:  ][ 7:  ][ 8:  ][ 9:  ] 
+           [ 10: (98)  ][ 11: LD0_CPLD(332) LD0_CPLD(97)  ][ 12: LD1_CPLD(333) LD1_CPLD(96)  ][ 13: (95)  ] 
+           [ 14: (94)  ][ 15:  ]
+----------------- B l o c k 12 ------------------
+----------------- B l o c k 13 ------------------
+PLApt(3/56), Fanin(4/38), Clk(0/3), Bct(0/4), Pin(1/8), Mcell(1/16)
+PLApts[3/3] 38 42 52
+Fanins[ 4] N_PZ_19.n N_PZ_32.n s_result<1>.n s_result<2>.n
+clk[0] 
+CTC: 
+CTR: 
+CTS: 
+CTE: 
+vref: [0]
+Signal[ 1] [disp_seg_o<0>(368),disp_seg_o<0>(61)] 
+Signal[ 1] [ 0: (74)  ][ 1: (71)  ][ 2: (70)  ][ 3: (69)  ][ 4:  ][ 5: (68)  ][ 6:  ][ 7:  ][ 8:  ][ 9:  ] 
+           [ 10:  ][ 11:  ][ 12: (66)  ][ 13: (64)  ][ 14:  ][ 15: disp_seg_o<0>(368) disp_seg_o<0>(61)  ]
+----------------- B l o c k 14 ------------------
+----------------- B l o c k 15 ------------------
+PLApt(15/56), Fanin(4/38), Clk(0/3), Bct(0/4), Pin(6/7), Mcell(6/16)
+PLApts[15/56] 45 50 37 54 43 44 49 58 36 41 47 55 () () () () () () () () () () () () () () () () () () () () 
+              () () () () () () () () () () () () () () 46 () () () () () 48 () () 39
+Fanins[ 4] N_PZ_19.n N_PZ_32.n s_result<1>.n s_result<2>.n
+clk[0] 
+CTC: 
+CTR: 
+CTS: 
+CTE: 
+vref: [0]
+Signal[ 6] [disp_seg_o<1>(399),disp_seg_o<1>(54)] [disp_seg_o<2>(396),disp_seg_o<2>(57)]  
+           [disp_seg_o<3>(395),disp_seg_o<3>(58)] [disp_seg_o<4>(389),disp_seg_o<4>(60)]  
+           [disp_seg_o<5>(400),disp_seg_o<5>(53)] [disp_seg_o<6>(397),disp_seg_o<6>(56)] 
+Signal[ 6] [ 0:  ][ 1:  ][ 2:  ][ 3:  ][ 4: disp_seg_o<4>(389) disp_seg_o<4>(60)  ][ 5: (59)  ][ 6:  ][ 7:  ] 
+           [ 8:  ][ 9:  ][ 10: disp_seg_o<3>(395) disp_seg_o<3>(58)  ][ 11: disp_seg_o<2>(396)  
+           disp_seg_o<2>(57)  ][ 12: disp_seg_o<6>(397) disp_seg_o<6>(56)  ][ 13:  ][ 14: disp_seg_o<1>(399)  
+           disp_seg_o<1>(54)  ][ 15: disp_seg_o<5>(400) disp_seg_o<5>(53)  ]

@@ -1,0 +1,30 @@
+V3 15
+FL /home/lab661/Documents/xpolac36/Digital-electronics-1/Labs/04-adder/hex_to_7seg.vhd 2020/02/19.09:58:29 P.20131013
+EN work/hex_to_7seg 1583314995 \
+      FL /home/lab661/Documents/xpolac36/Digital-electronics-1/Labs/04-adder/hex_to_7seg.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/hex_to_7seg/Behavioral 1583314996 \
+      FL /home/lab661/Documents/xpolac36/Digital-electronics-1/Labs/04-adder/hex_to_7seg.vhd \
+      EN work/hex_to_7seg 1583314995
+FL /home/lab661/Documents/xpolac36/Digital-electronics-1/Labs/05-connter_binary/binary_counter/binary_cnt.vhd 2020/03/04.09:38:07 P.20131013
+EN work/binary_cnt 1583314993 \
+      FL /home/lab661/Documents/xpolac36/Digital-electronics-1/Labs/05-connter_binary/binary_counter/binary_cnt.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/binary_cnt/Behavioral 1583314994 \
+      FL /home/lab661/Documents/xpolac36/Digital-electronics-1/Labs/05-connter_binary/binary_counter/binary_cnt.vhd \
+      EN work/binary_cnt 1583314993
+FL /home/lab661/Documents/xpolac36/Digital-electronics-1/Labs/05-connter_binary/binary_counter/clock_enable.vhd 2020/03/04.09:21:52 P.20131013
+EN work/clock_enable 1583314991 \
+      FL /home/lab661/Documents/xpolac36/Digital-electronics-1/Labs/05-connter_binary/binary_counter/clock_enable.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/clock_enable/Behavioral 1583314992 \
+      FL /home/lab661/Documents/xpolac36/Digital-electronics-1/Labs/05-connter_binary/binary_counter/clock_enable.vhd \
+      EN work/clock_enable 1583314991
+FL /home/lab661/Documents/xpolac36/Digital-electronics-1/Labs/05-connter_binary/binary_counter/top.vhd 2020/03/04.10:42:08 P.20131013
+EN work/top 1583314997 \
+      FL /home/lab661/Documents/xpolac36/Digital-electronics-1/Labs/05-connter_binary/binary_counter/top.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/top/Behavioral 1583314998 \
+      FL /home/lab661/Documents/xpolac36/Digital-electronics-1/Labs/05-connter_binary/binary_counter/top.vhd \
+      EN work/top 1583314997 CP work/clock_enable CP work/binary_cnt \
+      CP work/hex_to_7seg

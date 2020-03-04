@@ -1,0 +1,417 @@
+<html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<script src="paths.js"></script><script src="eqns.js"></script><script>
+      var design = "top";
+      var device = "XC2C256";
+      signals = new Array("CLK_EN_0s_cnt0_SPECSIG","CLK_EN_0s_cnt10_SPECSIG","CLK_EN_0s_cnt11_SPECSIG","CLK_EN_0s_cnt12_SPECSIG","CLK_EN_0s_cnt13_SPECSIG","CLK_EN_0s_cnt14_SPECSIG","CLK_EN_0s_cnt15_SPECSIG","CLK_EN_0s_cnt1_SPECSIG","CLK_EN_0s_cnt2_SPECSIG","CLK_EN_0s_cnt3_SPECSIG","CLK_EN_0s_cnt4_SPECSIG","CLK_EN_0s_cnt5_SPECSIG","CLK_EN_0s_cnt6_SPECSIG","CLK_EN_0s_cnt7_SPECSIG","CLK_EN_0s_cnt8_SPECSIG","CLK_EN_0s_cnt9_SPECSIG","N_PZ_106","N_PZ_112","N_PZ_126","N_PZ_137","N_PZ_140","N_PZ_159","disp_dig_o0_SPECSIG","disp_dig_o1_SPECSIG","disp_dig_o2_SPECSIG","disp_dig_o3_SPECSIG","disp_seg_o0_SPECSIG","disp_seg_o1_SPECSIG","disp_seg_o2_SPECSIG","disp_seg_o3_SPECSIG","disp_seg_o4_SPECSIG","disp_seg_o5_SPECSIG","disp_seg_o6_SPECSIG","s_en","s_hex0_SPECSIG","s_hex1_SPECSIG","s_hex2_SPECSIG","s_hex3_SPECSIG");
+      sigNegs = new Array("OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","ON","ON","ON","OFF","OFF","OFF","OFF","OFF","OFF","OFF","ON","OFF","OFF","OFF","OFF");
+      sigTypes = new Array("DFF","TFF","DFF","DFF","DFF","DFF","DFF","DFF","DFF","DFF","DFF","TFF","TFF","TFF","DFF","TFF","","","","","","","","","","","","","","","","","","DFF","DFF","TFF","TFF","TFF");
+
+      
+           iostyle["BTN0"]=new Array("KPR");
+        
+           iostyle["clk_i"]=new Array("KPR");
+        
+        specSig["b_SPECSIG"]=new Array("(b)");
+      
+        specSig["CLK_EN_0s_cnt3_SPECSIG"]=new Array("CLK_EN_0/s_cnt<3>");
+      
+        specSig["CLK_EN_0s_cnt9_SPECSIG"]=new Array("CLK_EN_0/s_cnt<9>");
+      
+        specSig["CLK_EN_0s_cnt10_SPECSIG"]=new Array("CLK_EN_0/s_cnt<10>");
+      
+        specSig["disp_dig_o0_SPECSIG"]=new Array("disp_dig_o<0>");
+      
+        specSig["disp_dig_o1_SPECSIG"]=new Array("disp_dig_o<1>");
+      
+        specSig["disp_dig_o2_SPECSIG"]=new Array("disp_dig_o<2>");
+      
+        specSig["disp_dig_o3_SPECSIG"]=new Array("disp_dig_o<3>");
+      
+        specSig["disp_seg_o0_SPECSIG"]=new Array("disp_seg_o<0>");
+      
+        specSig["disp_seg_o4_SPECSIG"]=new Array("disp_seg_o<4>");
+      
+        specSig["disp_seg_o3_SPECSIG"]=new Array("disp_seg_o<3>");
+      
+        specSig["disp_seg_o2_SPECSIG"]=new Array("disp_seg_o<2>");
+      
+        specSig["disp_seg_o6_SPECSIG"]=new Array("disp_seg_o<6>");
+      
+        specSig["disp_seg_o1_SPECSIG"]=new Array("disp_seg_o<1>");
+      
+        specSig["disp_seg_o5_SPECSIG"]=new Array("disp_seg_o<5>");
+      
+        specSig["CLK_EN_0s_cnt8_SPECSIG"]=new Array("CLK_EN_0/s_cnt<8>");
+      
+        specSig["CLK_EN_0s_cnt11_SPECSIG"]=new Array("CLK_EN_0/s_cnt<11>");
+      
+        specSig["CLK_EN_0s_cnt7_SPECSIG"]=new Array("CLK_EN_0/s_cnt<7>");
+      
+        specSig["CLK_EN_0s_cnt6_SPECSIG"]=new Array("CLK_EN_0/s_cnt<6>");
+      
+        specSig["CLK_EN_0s_cnt1_SPECSIG"]=new Array("CLK_EN_0/s_cnt<1>");
+      
+        specSig["CLK_EN_0s_cnt0_SPECSIG"]=new Array("CLK_EN_0/s_cnt<0>");
+      
+        specSig["CLK_EN_0s_cnt15_SPECSIG"]=new Array("CLK_EN_0/s_cnt<15>");
+      
+        specSig["CLK_EN_0s_cnt14_SPECSIG"]=new Array("CLK_EN_0/s_cnt<14>");
+      
+        specSig["CLK_EN_0s_cnt13_SPECSIG"]=new Array("CLK_EN_0/s_cnt<13>");
+      
+        specSig["CLK_EN_0s_cnt12_SPECSIG"]=new Array("CLK_EN_0/s_cnt<12>");
+      
+        specSig["CLK_EN_0s_cnt2_SPECSIG"]=new Array("CLK_EN_0/s_cnt<2>");
+      
+        specSig["CLK_EN_0s_cnt4_SPECSIG"]=new Array("CLK_EN_0/s_cnt<4>");
+      
+        specSig["CLK_EN_0s_cnt5_SPECSIG"]=new Array("CLK_EN_0/s_cnt<5>");
+      
+        specSig["s_hex0_SPECSIG"]=new Array("s_hex<0>");
+      
+        specSig["s_hex1_SPECSIG"]=new Array("s_hex<1>");
+      
+        specSig["s_hex2_SPECSIG"]=new Array("s_hex<2>");
+      
+        specSig["s_hex3_SPECSIG"]=new Array("s_hex<3>");
+      
+            pterms["FB1_0"]=new Array("N_PZ_106","/CLK_EN_0s_cnt0_SPECSIG","N_PZ_112","CLK_EN_0s_cnt1_SPECSIG");
+          
+            pterms["FB1_1"]=new Array("N_PZ_106","CLK_EN_0s_cnt0_SPECSIG","N_PZ_112","/CLK_EN_0s_cnt1_SPECSIG");
+          
+            pterms["FB1_2"]=new Array("/N_PZ_106","CLK_EN_0s_cnt6_SPECSIG");
+          
+            pterms["FB1_3"]=new Array("/N_PZ_112","CLK_EN_0s_cnt6_SPECSIG");
+          
+            pterms["FB1_4"]=new Array("N_PZ_126","N_PZ_137","CLK_EN_0s_cnt6_SPECSIG");
+          
+            pterms["FB1_5"]=new Array("/N_PZ_126","N_PZ_106","CLK_EN_0s_cnt4_SPECSIG","N_PZ_140","N_PZ_112","CLK_EN_0s_cnt5_SPECSIG");
+          
+            pterms["FB1_6"]=new Array("N_PZ_106","CLK_EN_0s_cnt4_SPECSIG","N_PZ_140","/N_PZ_137","N_PZ_112","CLK_EN_0s_cnt5_SPECSIG");
+          
+            pterms["FB1_7"]=new Array("/N_PZ_106","CLK_EN_0s_cnt7_SPECSIG");
+          
+            pterms["FB1_8"]=new Array("/N_PZ_112","CLK_EN_0s_cnt7_SPECSIG");
+          
+            pterms["FB1_9"]=new Array("N_PZ_126","N_PZ_137","CLK_EN_0s_cnt7_SPECSIG");
+          
+            pterms["FB1_10"]=new Array("/N_PZ_126","CLK_EN_0s_cnt8_SPECSIG");
+          
+            pterms["FB1_11"]=new Array("/N_PZ_126","CLK_EN_0s_cnt4_SPECSIG","N_PZ_140","CLK_EN_0s_cnt5_SPECSIG","CLK_EN_0s_cnt6_SPECSIG");
+          
+            pterms["FB1_12"]=new Array("CLK_EN_0s_cnt11_SPECSIG","/N_PZ_126");
+          
+            pterms["FB1_13"]=new Array("N_PZ_126","N_PZ_106","/N_PZ_137","N_PZ_112");
+          
+            pterms["FB1_14"]=new Array("/N_PZ_126","CLK_EN_0s_cnt10_SPECSIG","CLK_EN_0s_cnt4_SPECSIG","N_PZ_140","CLK_EN_0s_cnt5_SPECSIG","CLK_EN_0s_cnt9_SPECSIG","CLK_EN_0s_cnt6_SPECSIG","CLK_EN_0s_cnt7_SPECSIG","CLK_EN_0s_cnt8_SPECSIG");
+          
+            pterms["FB1_15"]=new Array("/N_PZ_126","CLK_EN_0s_cnt4_SPECSIG","CLK_EN_0s_cnt2_SPECSIG","/N_PZ_112","CLK_EN_0s_cnt3_SPECSIG","CLK_EN_0s_cnt5_SPECSIG","CLK_EN_0s_cnt6_SPECSIG","CLK_EN_0s_cnt7_SPECSIG","CLK_EN_0s_cnt8_SPECSIG");
+          
+            pterms["FB1_16"]=new Array("BTN0","/CLK_EN_0s_cnt12_SPECSIG","/CLK_EN_0s_cnt13_SPECSIG","/CLK_EN_0s_cnt14_SPECSIG","/CLK_EN_0s_cnt15_SPECSIG");
+          
+            pterms["FB1_17"]=new Array("/N_PZ_126","CLK_EN_0s_cnt4_SPECSIG","CLK_EN_0s_cnt2_SPECSIG","N_PZ_137","CLK_EN_0s_cnt3_SPECSIG","CLK_EN_0s_cnt5_SPECSIG","CLK_EN_0s_cnt6_SPECSIG","CLK_EN_0s_cnt7_SPECSIG","CLK_EN_0s_cnt8_SPECSIG");
+          
+            pterms["FB1_18"]=new Array("N_PZ_126","N_PZ_106","/CLK_EN_0s_cnt10_SPECSIG","/N_PZ_137","N_PZ_112","/CLK_EN_0s_cnt9_SPECSIG");
+          
+            pterms["FB1_19"]=new Array("/N_PZ_126","CLK_EN_0s_cnt4_SPECSIG","N_PZ_140","CLK_EN_0s_cnt5_SPECSIG","CLK_EN_0s_cnt6_SPECSIG","CLK_EN_0s_cnt7_SPECSIG","/CLK_EN_0s_cnt8_SPECSIG");
+          
+            pterms["FB1_20"]=new Array("N_PZ_126","CLK_EN_0s_cnt10_SPECSIG");
+          
+            pterms["FB1_21"]=new Array("/N_PZ_126","CLK_EN_0s_cnt4_SPECSIG","N_PZ_140","CLK_EN_0s_cnt5_SPECSIG","CLK_EN_0s_cnt9_SPECSIG","CLK_EN_0s_cnt6_SPECSIG","CLK_EN_0s_cnt7_SPECSIG","CLK_EN_0s_cnt8_SPECSIG");
+          
+            pterms["FB1_22"]=new Array("CLK_EN_0s_cnt11_SPECSIG","CLK_EN_0s_cnt9_SPECSIG");
+          
+            pterms["FB1_23"]=new Array("/N_PZ_106","CLK_EN_0s_cnt9_SPECSIG");
+          
+            pterms["FB1_24"]=new Array("/CLK_EN_0s_cnt11_SPECSIG","N_PZ_106","CLK_EN_0s_cnt4_SPECSIG","N_PZ_140","CLK_EN_0s_cnt5_SPECSIG","CLK_EN_0s_cnt6_SPECSIG","CLK_EN_0s_cnt7_SPECSIG","CLK_EN_0s_cnt8_SPECSIG");
+          
+            pterms["FB1_25"]=new Array("/BTN0");
+          
+            pterms["FB1_26"]=new Array("/CLK_EN_0s_cnt11_SPECSIG","/CLK_EN_0s_cnt12_SPECSIG","/CLK_EN_0s_cnt13_SPECSIG","/CLK_EN_0s_cnt14_SPECSIG","/CLK_EN_0s_cnt15_SPECSIG");
+          
+            pterms["FB1_27"]=new Array("/CLK_EN_0s_cnt12_SPECSIG","/CLK_EN_0s_cnt13_SPECSIG","/CLK_EN_0s_cnt14_SPECSIG","/CLK_EN_0s_cnt15_SPECSIG","/CLK_EN_0s_cnt10_SPECSIG","/CLK_EN_0s_cnt4_SPECSIG","/CLK_EN_0s_cnt2_SPECSIG","/N_PZ_137","/CLK_EN_0s_cnt3_SPECSIG","/CLK_EN_0s_cnt5_SPECSIG","/CLK_EN_0s_cnt9_SPECSIG");
+          
+            pterms["FB1_28"]=new Array("/CLK_EN_0s_cnt12_SPECSIG","/CLK_EN_0s_cnt13_SPECSIG","/CLK_EN_0s_cnt14_SPECSIG","/CLK_EN_0s_cnt15_SPECSIG","/N_PZ_159");
+          
+            pterms["FB1_29"]=new Array("/CLK_EN_0s_cnt11_SPECSIG");
+          
+            pterms["FB1_30"]=new Array("/CLK_EN_0s_cnt10_SPECSIG","/CLK_EN_0s_cnt4_SPECSIG","/CLK_EN_0s_cnt2_SPECSIG","/CLK_EN_0s_cnt3_SPECSIG","/CLK_EN_0s_cnt5_SPECSIG","/CLK_EN_0s_cnt9_SPECSIG");
+          
+            pterms["FB1_31"]=new Array("/N_PZ_159");
+          
+            pterms["FB1_32"]=new Array("/N_PZ_126","/N_PZ_140","CLK_EN_0s_cnt3_SPECSIG");
+          
+            pterms["FB1_33"]=new Array("/N_PZ_126","/N_PZ_140","CLK_EN_0s_cnt2_SPECSIG","N_PZ_137");
+          
+            pterms["FB1_34"]=new Array("N_PZ_106","/CLK_EN_0s_cnt0_SPECSIG","N_PZ_112");
+          
+            pterms["FB2_0"]=new Array("/BTN0","s_hex3_SPECSIG");
+          
+            pterms["FB2_1"]=new Array("s_hex2_SPECSIG","BTN0","s_hex1_SPECSIG","s_hex0_SPECSIG","s_en");
+          
+            pterms["FB2_2"]=new Array("s_hex2_SPECSIG","/BTN0");
+          
+            pterms["FB2_3"]=new Array("BTN0","s_hex1_SPECSIG","s_hex0_SPECSIG","s_en");
+          
+            pterms["FB2_4"]=new Array("/BTN0","s_hex1_SPECSIG");
+          
+            pterms["FB2_5"]=new Array("BTN0","s_hex0_SPECSIG","s_en");
+          
+            pterms["FB2_6"]=new Array("BTN0","/s_hex0_SPECSIG","s_en");
+          
+            pterms["FB2_7"]=new Array("BTN0","s_hex0_SPECSIG","/s_en");
+          
+            pterms["FB2_8"]=new Array("/N_PZ_126","/CLK_EN_0s_cnt2_SPECSIG","N_PZ_137");
+          
+            pterms["FB2_9"]=new Array("/N_PZ_126","CLK_EN_0s_cnt2_SPECSIG","/N_PZ_137");
+          
+            pterms["FB2_10"]=new Array("/N_PZ_126","/CLK_EN_0s_cnt4_SPECSIG","N_PZ_140");
+          
+            pterms["FB2_11"]=new Array("/N_PZ_126","CLK_EN_0s_cnt4_SPECSIG","/N_PZ_140");
+          
+            pterms["FB2_12"]=new Array("N_PZ_126","CLK_EN_0s_cnt5_SPECSIG");
+          
+            pterms["FB2_13"]=new Array("/N_PZ_126","CLK_EN_0s_cnt4_SPECSIG","N_PZ_140");
+          
+            pterms["FB2_14"]=new Array("/N_PZ_106");
+          
+            pterms["FB2_15"]=new Array("CLK_EN_0s_cnt11_SPECSIG","N_PZ_159");
+          
+            pterms["FB2_16"]=new Array("CLK_EN_0s_cnt10_SPECSIG");
+          
+            pterms["FB2_17"]=new Array("CLK_EN_0s_cnt6_SPECSIG","CLK_EN_0s_cnt7_SPECSIG","CLK_EN_0s_cnt8_SPECSIG");
+          
+            pterms["FB2_18"]=new Array("CLK_EN_0s_cnt9_SPECSIG");
+          
+            pterms["FB2_28"]=new Array("CLK_EN_0s_cnt2_SPECSIG","N_PZ_137","CLK_EN_0s_cnt3_SPECSIG");
+          
+            pterms["FB2_52"]=new Array("CLK_EN_0s_cnt0_SPECSIG","CLK_EN_0s_cnt1_SPECSIG");
+          
+            pterms["FB14_0"]=new Array("/s_hex2_SPECSIG","/s_hex1_SPECSIG","/s_hex3_SPECSIG");
+          
+            pterms["FB14_1"]=new Array("s_hex2_SPECSIG","s_hex1_SPECSIG","s_hex0_SPECSIG","/s_hex3_SPECSIG");
+          
+            pterms["FB14_2"]=new Array("s_hex2_SPECSIG","/s_hex1_SPECSIG","/s_hex0_SPECSIG","s_hex3_SPECSIG");
+          
+            pterms["FB16_0"]=new Array("s_hex2_SPECSIG","/s_hex1_SPECSIG","s_hex0_SPECSIG");
+          
+            pterms["FB16_1"]=new Array("/s_hex2_SPECSIG","s_hex1_SPECSIG","/s_hex0_SPECSIG","/s_hex3_SPECSIG");
+          
+            pterms["FB16_2"]=new Array("s_hex2_SPECSIG","s_hex1_SPECSIG","s_hex0_SPECSIG");
+          
+            pterms["FB16_3"]=new Array("/s_hex2_SPECSIG","/s_hex1_SPECSIG","s_hex0_SPECSIG","/s_hex3_SPECSIG");
+          
+            pterms["FB16_4"]=new Array("/s_hex2_SPECSIG","s_hex1_SPECSIG","/s_hex0_SPECSIG","s_hex3_SPECSIG");
+          
+            pterms["FB16_5"]=new Array("s_hex2_SPECSIG","/s_hex1_SPECSIG","/s_hex0_SPECSIG","/s_hex3_SPECSIG");
+          
+            pterms["FB16_6"]=new Array("s_hex2_SPECSIG","/s_hex1_SPECSIG","/s_hex3_SPECSIG");
+          
+            pterms["FB16_7"]=new Array("s_hex1_SPECSIG","s_hex0_SPECSIG","s_hex3_SPECSIG");
+          
+            pterms["FB16_8"]=new Array("/s_hex2_SPECSIG","s_hex0_SPECSIG","s_hex3_SPECSIG");
+          
+            pterms["FB16_9"]=new Array("/s_hex2_SPECSIG","/s_hex1_SPECSIG","s_hex0_SPECSIG");
+          
+            pterms["FB16_10"]=new Array("s_hex2_SPECSIG","s_hex1_SPECSIG","s_hex3_SPECSIG");
+          
+            pterms["FB16_11"]=new Array("s_hex2_SPECSIG","/s_hex0_SPECSIG","s_hex3_SPECSIG");
+          
+            pterms["FB16_46"]=new Array("/s_hex1_SPECSIG","s_hex0_SPECSIG");
+          
+            pterms["FB16_52"]=new Array("s_hex0_SPECSIG","/s_hex3_SPECSIG");
+          
+            pterms["FB16_55"]=new Array("s_hex2_SPECSIG","/s_hex0_SPECSIG");
+          
+          d1["CLK_EN_0s_cnt8_SPECSIG"]=new Array("FB1_10");
+          
+          d2["CLK_EN_0s_cnt8_SPECSIG"]=new Array("FB1_18","FB1_19","FB1_17","FB1_15");
+          
+              gblclk["CLK_EN_0s_cnt8_SPECSIG"]=new Array("clk_i");
+            prld["CLK_EN_0s_cnt8_SPECSIG"]="GND";
+          d2["CLK_EN_0s_cnt11_SPECSIG"]=new Array("FB1_12","FB1_13","FB1_14");
+          
+              gblclk["CLK_EN_0s_cnt11_SPECSIG"]=new Array("clk_i");
+            prld["CLK_EN_0s_cnt11_SPECSIG"]="GND";
+          d1["N_PZ_106"]=new Array("FB1_16");
+          
+          d2["CLK_EN_0s_cnt3_SPECSIG"]=new Array("FB1_32","FB1_33");
+          
+              gblclk["CLK_EN_0s_cnt3_SPECSIG"]=new Array("clk_i");
+            prld["CLK_EN_0s_cnt3_SPECSIG"]="GND";
+          d2["CLK_EN_0s_cnt7_SPECSIG"]=new Array("FB1_7","FB1_8","FB1_9","FB1_11");
+          
+              gblclk["CLK_EN_0s_cnt7_SPECSIG"]=new Array("clk_i");
+            prld["CLK_EN_0s_cnt7_SPECSIG"]="GND";
+          d2["N_PZ_112"]=new Array("FB1_29","FB1_31","FB1_30");
+          
+          d2["CLK_EN_0s_cnt6_SPECSIG"]=new Array("FB1_2","FB1_3","FB1_4","FB1_5","FB1_6");
+          
+              gblclk["CLK_EN_0s_cnt6_SPECSIG"]=new Array("clk_i");
+            prld["CLK_EN_0s_cnt6_SPECSIG"]="GND";
+          d2["CLK_EN_0s_cnt1_SPECSIG"]=new Array("FB1_1","FB1_0");
+          
+              gblclk["CLK_EN_0s_cnt1_SPECSIG"]=new Array("clk_i");
+            prld["CLK_EN_0s_cnt1_SPECSIG"]="GND";
+          d1["CLK_EN_0s_cnt0_SPECSIG"]=new Array("FB1_34");
+          
+              gblclk["CLK_EN_0s_cnt0_SPECSIG"]=new Array("clk_i");
+            prld["CLK_EN_0s_cnt0_SPECSIG"]="GND";
+          d2["CLK_EN_0s_cnt15_SPECSIG"]=new Array("GND");
+          
+              gblclk["CLK_EN_0s_cnt15_SPECSIG"]=new Array("clk_i");
+            prld["CLK_EN_0s_cnt15_SPECSIG"]="GND";
+          d2["CLK_EN_0s_cnt14_SPECSIG"]=new Array("GND");
+          
+              gblclk["CLK_EN_0s_cnt14_SPECSIG"]=new Array("clk_i");
+            prld["CLK_EN_0s_cnt14_SPECSIG"]="GND";
+          d2["s_en"]=new Array("FB1_25","FB1_26","FB1_28","FB1_27");
+          
+              gblclk["s_en"]=new Array("clk_i");
+            prld["s_en"]="GND";
+          d2["CLK_EN_0s_cnt9_SPECSIG"]=new Array("FB1_22","FB1_23","FB1_24");
+          
+              gblclk["CLK_EN_0s_cnt9_SPECSIG"]=new Array("clk_i");
+            prld["CLK_EN_0s_cnt9_SPECSIG"]="GND";
+          d2["CLK_EN_0s_cnt10_SPECSIG"]=new Array("FB1_20","FB1_21");
+          
+              gblclk["CLK_EN_0s_cnt10_SPECSIG"]=new Array("clk_i");
+            prld["CLK_EN_0s_cnt10_SPECSIG"]="GND";
+          d2["CLK_EN_0s_cnt13_SPECSIG"]=new Array("GND");
+          
+              gblclk["CLK_EN_0s_cnt13_SPECSIG"]=new Array("clk_i");
+            prld["CLK_EN_0s_cnt13_SPECSIG"]="GND";
+          d2["CLK_EN_0s_cnt12_SPECSIG"]=new Array("GND");
+          
+              gblclk["CLK_EN_0s_cnt12_SPECSIG"]=new Array("clk_i");
+            prld["CLK_EN_0s_cnt12_SPECSIG"]="GND";
+          d2["CLK_EN_0s_cnt5_SPECSIG"]=new Array("FB2_12","FB2_13");
+          
+              gblclk["CLK_EN_0s_cnt5_SPECSIG"]=new Array("clk_i");
+            prld["CLK_EN_0s_cnt5_SPECSIG"]="GND";
+          d2["CLK_EN_0s_cnt4_SPECSIG"]=new Array("FB2_11","FB2_10");
+          
+              gblclk["CLK_EN_0s_cnt4_SPECSIG"]=new Array("clk_i");
+            prld["CLK_EN_0s_cnt4_SPECSIG"]="GND";
+          d1["N_PZ_140"]=new Array("FB2_28");
+          
+          d2["CLK_EN_0s_cnt2_SPECSIG"]=new Array("FB2_9","FB2_8");
+          
+              gblclk["CLK_EN_0s_cnt2_SPECSIG"]=new Array("clk_i");
+            prld["CLK_EN_0s_cnt2_SPECSIG"]="GND";
+          d2["s_hex0_SPECSIG"]=new Array("FB2_7","FB2_6");
+          
+              gblclk["s_hex0_SPECSIG"]=new Array("clk_i");
+            prld["s_hex0_SPECSIG"]="GND";
+          d2["s_hex1_SPECSIG"]=new Array("FB2_4","FB2_5");
+          
+              gblclk["s_hex1_SPECSIG"]=new Array("clk_i");
+            prld["s_hex1_SPECSIG"]="GND";
+          d2["s_hex2_SPECSIG"]=new Array("FB2_2","FB2_3");
+          
+              gblclk["s_hex2_SPECSIG"]=new Array("clk_i");
+            prld["s_hex2_SPECSIG"]="GND";
+          d2["N_PZ_159"]=new Array("FB2_16","FB2_18","FB2_17");
+          
+          d2["N_PZ_126"]=new Array("FB2_14","FB2_15");
+          
+          d1["N_PZ_137"]=new Array("FB2_52");
+          
+          d2["s_hex3_SPECSIG"]=new Array("FB2_0","FB2_1");
+          
+              gblclk["s_hex3_SPECSIG"]=new Array("clk_i");
+            prld["s_hex3_SPECSIG"]="GND";
+          d2["disp_dig_o0_SPECSIG"]=new Array("GND");
+          
+          d2["disp_dig_o1_SPECSIG"]=new Array("GND");
+          
+          d2["disp_dig_o2_SPECSIG"]=new Array("GND");
+          
+          d2["disp_dig_o3_SPECSIG"]=new Array("GND");
+          
+          d2["disp_seg_o0_SPECSIG"]=new Array("FB14_0","FB14_1","FB14_2");
+          
+          d2["disp_seg_o4_SPECSIG"]=new Array("FB16_10","FB16_11","FB16_1");
+          
+          d2["disp_seg_o3_SPECSIG"]=new Array("FB16_2","FB16_5","FB16_4","FB16_3");
+          
+          d2["disp_seg_o2_SPECSIG"]=new Array("FB16_52","FB16_6","FB16_9");
+          
+          d1["disp_seg_o6_SPECSIG"]=new Array("FB16_46");
+          
+          d2["disp_seg_o6_SPECSIG"]=new Array("FB16_6","FB16_8");
+          
+          d1["disp_seg_o1_SPECSIG"]=new Array("FB16_52");
+          
+          d2["disp_seg_o1_SPECSIG"]=new Array("FB16_0","FB16_1");
+          
+          d1["disp_seg_o5_SPECSIG"]=new Array("FB16_55");
+          
+          d2["disp_seg_o5_SPECSIG"]=new Array("FB16_6","FB16_7");
+          
+
+      uimSignals = new Array();
+
+      uimSigNegs = new Array();
+
+      uimPterms = new Array();
+      
+
+      
+        function getEqnList() {
+          var str = "<html><head><link type='text/css' href='style.css' rel='stylesheet'></head><body class='pgBgnd'>";
+          str += "<center><h3>Equations</h3></center>";
+          str += "<table width='90%' align='center' border='1' cellpadding='0' cellspacing='0'>";
+          for (s=0; s<uimSignals.length; s++) {
+            str += "<tr><td>";
+            str += retUimEqn(uimSignals[s]);
+            str += "</td></tr>";
+          }
+          for (s=0; s<signals.length; s++) {
+            str += "<tr><td>";
+            str += retEqn(signals[s]);
+            str += "</td></tr>";
+          }
+
+          var legend = retLegend();
+		      if (legend != "") {
+		        str += "<tr><td>" + legend + "</td></tr>";
+		      }
+
+          str += "</table>";
+          str += "<form><span class='pgRef'>";
+
+          if (!parent.leftnav.IsNS()) {
+            str += "<table width='90%' align='center'>";
+            str += "<tr><td align='left'><input type='button' value='back to top' ";
+            str += "onclick='javascript:parent.leftnav.showEqnAll()' ";
+            str += "onmouseover=\"window.status='goto top of page'; return true;\" ";
+            str += "onmouseout=\"window.status=''\">";
+            str += "</td>";
+            str += "<td align='right'>";
+            str += "<input type='button' value='print page' ";
+            str += "onclick='javascript:window.print()' ";
+            str += "onmouseover=\"window.status='print page'; return true;\" ";
+            str += "onmouseout=\"window.status=''\">";
+            str += "</td>";
+            str += "</tr></table>";
+          }
+          else {
+            str += "<table width='90%' align='center'>";
+            str += "<tr><td align='left'><a href='javascript:parent.leftnav.showEqnAll()'>back to top</a>";
+            str += "</td>";
+            str += "<td align='right'>";
+            str += "<a href='javascript:window.print()'>";
+            str += "print page</a>";
+            str += "</td>";
+            str += "</tr></table>";
+          }
+
+          str += "</span></form>";
+          str += "</body></html>";
+          return str;
+        }
+      
+    </script>
+</head></html>
