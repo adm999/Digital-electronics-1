@@ -48,7 +48,7 @@ begin
 
 	CNT_TENS: entity work.BCD_cnt
 	generic map (
-		g_NBIT => 4
+		max_val => 5
 	)
 	port map (
 		clk_i => clk_i,
@@ -59,7 +59,7 @@ begin
 
 	CNT_ONES: entity work.BCD_cnt
 	generic map (
-		g_NBIT => 4
+		max_val => 9
 	)
 	port map (
 		clk_i => clk_i,
@@ -70,7 +70,7 @@ begin
 	 
 	 CNT_TENTHS: entity work.BCD_cnt
 	 generic map (
-		g_NBIT => 4
+		max_val => 9
 	 )
 	 port map (
 		clk_i => clk_i,
@@ -81,7 +81,7 @@ begin
 	 
 	 CNT_HUNDREDTH: entity work.BCD_cnt
 	 generic map (
-		g_NBIT => 4
+		max_val => 9
 	 )
 	 port map (
 		clk_i => clk_i,
