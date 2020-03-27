@@ -16,4 +16,5 @@
 
 ![RTL_top_3](https://user-images.githubusercontent.com/58397657/77751239-97235f00-7025-11ea-974d-54cd13826009.png)
 
-![lights](https://user-images.githubusercontent.com/60675320/77784731-4cbcd500-705b-11ea-9798-364c7884ed36.jpg)
+![lights](https://user-images.githubusercontent.com/60675320/77793599-a8db2580-706a-11ea-8d02-b74659cf9fe9.jpg)
+
