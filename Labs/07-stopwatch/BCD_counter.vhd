@@ -7,7 +7,7 @@ use ieee.std_logic_unsigned.all;    -- Provides unsigned numerical computation
 ------------------------------------------------------------------------
 entity BCD_cnt is
 generic (
-    g_NBIT : positive := 9      -- Number of bits
+    nax_val : positive := 9      -- Number of bits
 );
 port (
     clk_i    : in  std_logic;
@@ -35,7 +35,7 @@ begin
             if srst_n_i = '0' then  -- Synchronous reset (active low)
                 s_cnt <= (others => '0');   -- Clear all bits
             elsif en_i = '1' then
-		if s_cnt >= 9 then
+		if s_cnt >= max_val then
 		   s_cnt <= (others => '0');
 		else
 		   s_cnt <= s_cnt + 1;
