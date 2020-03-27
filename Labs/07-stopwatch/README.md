@@ -8,6 +8,8 @@
 
 ![tens](https://user-images.githubusercontent.com/58397657/77150939-3b8d2a80-6a95-11ea-8267-6090e4075db8.png)
 
+Checking of reset after 5
+
 ![reset_5](https://user-images.githubusercontent.com/58397657/77751383-e073ae80-7025-11ea-8181-a06d1acf75ff.png)
 
 ## Top
