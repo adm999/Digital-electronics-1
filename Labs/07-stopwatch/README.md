@@ -8,6 +8,8 @@
 
 ![tens](https://user-images.githubusercontent.com/58397657/77150939-3b8d2a80-6a95-11ea-8267-6090e4075db8.png)
 
+![reset_5](https://user-images.githubusercontent.com/58397657/77751383-e073ae80-7025-11ea-8181-a06d1acf75ff.png)
+
 ## Top
 
 ![stopwatch](https://user-images.githubusercontent.com/60675320/77196899-84200480-6ae4-11ea-9c84-65d2ad744c86.jpg)
