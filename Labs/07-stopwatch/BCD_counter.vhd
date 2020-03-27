@@ -7,7 +7,7 @@ use ieee.std_logic_unsigned.all;    -- Provides unsigned numerical computation
 ------------------------------------------------------------------------
 entity BCD_cnt is
 generic (
-    g_NBIT : positive := 5      -- Number of bits
+    g_NBIT : positive := 9      -- Number of bits
 );
 port (
     clk_i    : in  std_logic;
