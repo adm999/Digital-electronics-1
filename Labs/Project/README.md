@@ -8,7 +8,7 @@ The purpose of this application is to create code in VHDL that will allow securi
 
 #### Connection of external peripherals:
 
-![Keypad_schematic](https://user-images.githubusercontent.com/58397657/80630905-38526a80-8a55-11ea-81f3-eaafb2274460.png)
+
 
 The individual columns and rows are read by setting one of the columns to 0V and then all rows are checked in an ongoing read state.
 LEDs LD0 (for correctly entered PIN) and LD1 (for incorrectly entered PIN) on the Coolrunner II board would be used to signal a correct or incorrect attempt. For synchronous reset would be used BTN0.
