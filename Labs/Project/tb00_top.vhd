@@ -133,7 +133,7 @@ BEGIN
 --		end loop;
 --		keypad_i <= "1111";
 
-
+-- The simulation is automatically set to the correct PIN:
 		wait for 1000 ms;
 		-- Simulating press of the button "1" for 500 ms
 		-- ("Connected" column driver pin to the row reading pin)
