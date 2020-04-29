@@ -96,6 +96,8 @@ BEGIN
 		srst_n_i <= '0';
       wait for 1 ms;	
 		srst_n_i <= '1';
+
+		-- No key pressed
 		keypad_i <= "1111";
 
 --		wait for 100 ms;
@@ -133,31 +135,40 @@ BEGIN
 
 
 		wait for 1000 ms;
+		-- Simulating press of the button "1" for 500 ms
+		-- ("Connected" column driver pin to the row reading pin)
 		for I in 0 to 5000 loop
 			keypad_i(0) <= keypad_o(2);
 			wait for 100 us;
 		end loop;
+		-- Release of all row pins
 		keypad_i <= "1111";
 		
 		wait for 2000 ms;
+		-- Simulating press of the button "2" for 500 ms
 		for I in 0 to 5000 loop
 			keypad_i(0) <= keypad_o(1);
 			wait for 100 us;
 		end loop;
+		-- Release of all row pins
 		keypad_i <= "1111";
 		
 		wait for 500 ms;
+		-- Simulating press of the button "3" for 500 ms
 		for I in 0 to 5000 loop
 			keypad_i(0) <= keypad_o(0);
 			wait for 100 us;
 		end loop;
+		-- Release of all row pins
 		keypad_i <= "1111";
 		
 		wait for 1000 ms;
+		-- Simulating press of the button "4" for 500 ms
 		for I in 0 to 5000 loop
 			keypad_i(1) <= keypad_o(2);
 			wait for 100 us;
 		end loop;
+		-- Release of all row pins
 		keypad_i <= "1111";
 
       wait;
