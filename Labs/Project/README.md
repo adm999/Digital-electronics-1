@@ -8,7 +8,7 @@ The purpose of this application is to create code in VHDL that will allow securi
 
 #### Connection of external peripherals:
 
-<img src="https://user-images.githubusercontent.com/58397657/80632226-3ee1e180-8a57-11ea-9299-09694d731ef4.png" width="500">
+<img src="https://user-images.githubusercontent.com/58397657/80632226-3ee1e180-8a57-11ea-9299-09694d731ef4.png" width="400">
 
 The individual columns and rows are read by setting one of the columns to 0V and then all rows are checked in an ongoing read state.
 LEDs LD0 (for correctly entered PIN) and LD1 (for incorrectly entered PIN) on the Coolrunner II board would be used to signal a correct or incorrect attempt. For synchronous reset would be used BTN0.
@@ -19,14 +19,14 @@ The top layer consists of five blocks named: clock_enable, timer_10s, keypad_FSM
 
 <img src="https://user-images.githubusercontent.com/58397657/80631044-7485cb00-8a55-11ea-882d-b429d86291c0.png" width="500">
 
-![Top2(orezaná)](https://user-images.githubusercontent.com/58397657/80631095-88c9c800-8a55-11ea-9f9d-f60d560d3b4e.png)
+<img src="https://user-images.githubusercontent.com/58397657/80631095-88c9c800-8a55-11ea-9f9d-f60d560d3b4e.png" width="600">
 
 #### Main blocks of top:
 For describe the code lock function there are two finite state machines:
 
 keypad_FSM:
 
-
+<img src="https://user-images.githubusercontent.com/58397657/80634307-8d44af80-8a5a-11ea-9d73-ba89909f6476.png" width="500">
 
 The Finite State Machine "keypad_FSM" consists of 6 states named: s_cols_1 to 3 and r_rows_1 to 3 ("s" means "set" and "r" means "read"). The default state is s_cols_1, as shown in the image.
 The individual columns and rows are read by checking 1 column and then all rows. Then go to the next column and check all the rows again, etc. Depending on which row and column is the key, the number on the keyboard is pressed.
