@@ -8,7 +8,7 @@ The purpose of this application is to create code in VHDL that will allow securi
 
 #### Connection of external peripherals:
 
-
+<img src="https://user-images.githubusercontent.com/58397657/80632226-3ee1e180-8a57-11ea-9299-09694d731ef4.png" width="500">
 
 The individual columns and rows are read by setting one of the columns to 0V and then all rows are checked in an ongoing read state.
 LEDs LD0 (for correctly entered PIN) and LD1 (for incorrectly entered PIN) on the Coolrunner II board would be used to signal a correct or incorrect attempt. For synchronous reset would be used BTN0.
@@ -17,20 +17,22 @@ LEDs LD0 (for correctly entered PIN) and LD1 (for incorrectly entered PIN) on th
 
 The top layer consists of five blocks named: clock_enable, timer_10s, keypad_FSM, key_pressed_detector and code_FSM.
 
-![Top1(orezaná)](https://user-images.githubusercontent.com/58397657/80631044-7485cb00-8a55-11ea-882d-b429d86291c0.png)
+<img src="https://user-images.githubusercontent.com/58397657/80631044-7485cb00-8a55-11ea-882d-b429d86291c0.png" width="500">
 
 ![Top2(orezaná)](https://user-images.githubusercontent.com/58397657/80631095-88c9c800-8a55-11ea-9f9d-f60d560d3b4e.png)
 
 #### Main blocks of top:
 For describe the code lock function there are two finite state machines:
+
 keypad_FSM:
-![keypad_FSM](https://user-images.githubusercontent.com/58397657/80631234-badb2a00-8a55-11ea-94ea-1a837d79efef.png)
+
+
 
 The Finite State Machine "keypad_FSM" consists of 6 states named: s_cols_1 to 3 and r_rows_1 to 3 ("s" means "set" and "r" means "read"). The default state is s_cols_1, as shown in the image.
 The individual columns and rows are read by checking 1 column and then all rows. Then go to the next column and check all the rows again, etc. Depending on which row and column is the key, the number on the keyboard is pressed.
 
 code_FSM:
-![code_FSM](https://user-images.githubusercontent.com/58397657/80631353-de9e7000-8a55-11ea-9042-fabf98f73070.png)
+<img src="https://user-images.githubusercontent.com/58397657/80631353-de9e7000-8a55-11ea-9042-fabf98f73070.png" width="800">
 
 Finite state machine code_FSM consists of 9 states. The states for entering the correct PIN number are called corrX and the states for entering the wrong PIN number are called errX. In addition, there are three other states: "start", which indicates a system-wide reset, "fail", which indicates that the specified combination was incorrect, and finally, "unlock", which indicates that the specified combination was correct and unlocks the device.
 Preset PIN: 1234
@@ -72,7 +74,7 @@ Note: The output "debug_key_code" is output only in order to clearly see which k
 
 For the whole project the * .ucf file was modified for implementation into the CoolRunner II board. Subsequently, the project was tested using Generate Programming in ISE.
 
-![implementation_visio](https://user-images.githubusercontent.com/58397657/80631763-874ccf80-8a56-11ea-9483-82f564ae4add.png)
+<img src="https://user-images.githubusercontent.com/58397657/80631763-874ccf80-8a56-11ea-9483-82f564ae4add.png" width="500">
 
 ## References
 
